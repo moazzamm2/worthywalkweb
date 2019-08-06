@@ -1,0 +1,132 @@
+/* .carousel-item{
+    height: 85vh ;
+    width: 100%;
+} 
+.carousel-item img{
+    height: 85vh ;
+  
+/* } */
+
+.myborder{
+    border: 2px solid black;
+}
+.mypad{
+    margin-top: 0px;
+}
+
+.img1{width: 50px;height:80px;display: block;
+    margin: 0 auto;  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+   padding:1px;
+   border:3px solid #1ABE49;}
+.mycol{
+    /* padding-right: 10px; */
+  margin-bottom:30px;  
+
+}
+body{
+    
+    color: grey;
+}
+.bb{
+    color: #64a19d;
+
+}
+.bbb{
+    color: #64a19d;
+    margin: 4px;
+
+}
+.x{
+    margin-top: 25px;
+    height: 12vh;
+    width: 5vw;
+}
+.y{
+    height: 15vh;
+    width: 5vw;
+}
+.z{
+    margin-top: 30px;
+    height: 10vh;
+    width: 10vh;
+}
+.w{
+    margin-top: 30px;
+    height: 10vh;
+    width: 10vh;
+}
+.mylogo{
+    height:5vh;
+}
+@media only screen and (max-width: 800px) {
+    .y {
+        margin-top: 10px;
+        height: 12vh;
+        width: 10vw;
+    }
+  } 
+ @media only screen and (max-width: 920px) {
+    .x {
+        margin-top: 20px;
+        height: 12vh;
+        width: 15vw;
+    }
+  } 
+  @media only screen and (max-width: 920px) {
+    .z {
+    margin-top: 35px;
+    height: 10vh;
+    width: 10vh;
+    }
+  } 
+  @media only screen and (min-width: 1200px) {
+    .myrow {
+        margin-left: 50px;
+    }
+  } 
+  
+  
+/* @media only screen and (max-width: 480px) {
+    .mycol {
+        margin-right: 180px;
+        margin-bottom: 4px;
+    }
+  } */
+  /* imgbadge {
+    max-width: 100%;
+    height: auto;
+} */
+@media only screen and (max-width: 1000px) {
+    .mypad {
+        margin-top: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .myimg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  }
+  .signup-section .social a {
+    text-align: center;
+    height: 5rem;
+    width: 5rem;
+    background: #64a19d;
+    border-radius: 100%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255,255,255,1);
+    margin: 25px;
+}
+.img-fluid1 {
+    max-width: 16vh;
+    height: auto;
+}

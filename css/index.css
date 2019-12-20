@@ -1,0 +1,228 @@
+/* .carousel-item{
+    height: 85vh ;
+    width: 100%;
+} 
+.carousel-item img{
+    height: 85vh ;
+  
+/* } */
+
+.myborder{
+    border: 2px solid black;
+}
+.mypad{
+    margin-top: 0px;
+}
+Knubclass{
+    paddin-right: 20px;
+}
+.img1{width: 50px;height:80px;display: block;
+    margin: 0 auto;  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+   padding:1px;
+   border:3px solid #1ABE49;}
+.mycol{
+    /* padding-right: 10px; */
+  margin-bottom:30px;  
+
+}
+.container1 {
+    width: 500px;
+    border-radius: .5em;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+  }
+body{
+    
+    color: grey;
+}
+.bb{
+    color: #64a19d;
+
+}
+.bbf{
+    color: #4267B2;
+    margin: 4px;
+
+} 
+
+
+.bbi{
+    background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 4px;
+
+} 
+
+.bbt{
+    
+    color: #55ACEE;
+   margin:4px;
+
+}
+
+.bbb{
+    color: #64a19d;
+    margin: 4px;
+
+}
+.x{
+    margin-top: 25px;
+    height: 12vh;
+    width: 5vw;
+}
+.y{
+    height: 15vh;
+    width: 5vw;
+}
+.display-3{
+    color: #64a19d;
+}
+@media (max-width: 575.98px) {
+.display-3 {
+        font-size: 2.25rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
+.mod{
+	display: none;
+}
+}
+.display-4{
+    color: #fff;
+}
+.z{
+    margin-top: 30px;
+    height: 10vh;
+    width: 10vh;
+}
+.w{
+    margin-top: 30px;
+    height: 10vh;
+    width: 10vh;
+}
+.mylogo{
+    height:5vh;
+}
+.how1{
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+@media only screen and (max-width: 800px) {
+    .y {
+        margin-top: 10px;
+        height: 12vh;
+        width: 10vw;
+    }
+  } 
+ @media only screen and (max-width: 920px) {
+    .x {
+        margin-top: 20px;
+        height: 12vh;
+        width: 15vw;
+    }
+  } 
+  @media only screen and (max-width: 920px) {
+    .z {
+    margin-top: 35px;
+    height: 10vh;
+    width: 10vh;
+    }
+  } 
+  @media only screen and (min-width: 1200px) {
+    .myrow {
+        margin-left: 50px;
+    }
+  } 
+  
+  
+/* @media only screen and (max-width: 480px) {
+    .mycol {
+        margin-right: 180px;
+        margin-bottom: 4px;
+    }
+  } */
+  /* imgbadge {
+    max-width: 100%;
+    height: auto;
+} */
+@media only screen and (max-width: 1000px) {
+    .mypad {
+        margin-top: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .myimg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  }
+  .signup-section .social a {
+    text-align: center;
+    height: 5rem;
+    width: 5rem;
+    background: #64a19d;
+    border-radius: 100%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255,255,255,1);
+    margin: 25px;
+}
+.img-fluid1 {
+    max-width: 16vh;
+    height: auto;
+}
+
+/*dhidk*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%; /* Could be more or less, depending on screen size */
+    background-image: url('../img/modal.png');
+	background-position:center;
+	background-repeat:no-repeat;
+    background-size:cover;
+    text-align:center;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
